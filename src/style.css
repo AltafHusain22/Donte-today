@@ -112,3 +112,43 @@ main {
     width: 500px;
     margin: 0 auto;
 }
+
+/* donate plan */
+.plan-box-area {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.planbox-image {
+    margin-bottom: 20px;
+}
+
+.plan-box-title {
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.plan-box-description {
+    font-size: 13px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+.plan-box-1 {
+    background: #EDF5F6;
+    padding: 40px 15px;
+}
+
+.plan-box-2 {
+    background: #FFEEEE;
+    padding: 40px 15px;
+}
+
+.plan-box-3 {
+    background: #FFF4D6;
+    padding: 40px 15px;
+}
