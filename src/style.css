@@ -16,7 +16,6 @@
 .banner-content {}
 
 .banner {
-    width: 100%;
     background: url(..//Assets/images/donation13.jpg);
     height: 600px;
     background-repeat: no-repeat;
@@ -46,4 +45,70 @@
     border-radius: 7px;
     margin-left: 350px;
 
+}
+
+/* Donate now styles */
+main {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.Donate-today {
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-head {}
+
+.donate-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Poppins;
+}
+
+.donate-description {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.selct-money {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.monebox {
+    background: #FFEEEE;
+    padding: 20px;
+    color: #707070;
+}
+
+
+.monebox-2 {
+    background: #FFEEEE;
+    padding: 20px;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.other-amount {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.line {
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
 }
